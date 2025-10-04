@@ -1,0 +1,36 @@
+a. What problem does your app solve or what purpose does it serve?
+    Possible Ideas:
+        Dnd note taking app/program?
+            -program for players (or dms?) to take notes and section it into areas with charcaters and plot points/etc
+        To do app or something
+
+    Dnd Note taking app
+        -Created for the purpose of taking notes for a dnd campaign during/after the session. 
+        Meant to be an organized and easy way to create notes and reminders for characters, places, plot point etc.
+
+b. Who is the intended user?
+    -Intended user is someone who creates or plays in ttrpgs, maybe can be utilized for other
+    creative note taking purposeses like for writers. For people who want to organize their notes for ttrpgs/writing
+
+
+c. What actions will users be able to perform (e.g., sign up, add items, search,
+comment, etc.)?
+    -Register and account/login
+    -Create noytes for a world/campaign, and within that create seperate notes for locations/characters + others
+    -Create folders(?) for different sections and have notes within those folders
+    -Maybe be able to add images for folders/notes
+
+
+NEW IDEA:
+Bird game
+
+a. What problem does your app solve or what purpose does it serve?
+    Fun game that mimicks those "What countires flag is this" style games but with types of birds.
+    Serves the purpose of being fun and can be educational
+    
+b. Who is the intended user?
+    Someone who is bored, interested in birds/animals, and likes simple games.
+
+ What actions will users be able to perform (e.g., sign up, add items, search,
+comment, etc.)?
+    Be able to sign up/login, and play the game(press buttons or type answer). Maybe in account theres a way to save scores.
