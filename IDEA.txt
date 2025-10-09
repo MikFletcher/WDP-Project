@@ -22,15 +22,17 @@ comment, etc.)?
 
 
 NEW IDEA:
-Bird game
+DND/TTRPG Blog
+    a. What problem does your app solve or what purpose does it serve?
+        - A place for people to share about their TTRGP experince/world and read posts from 
+        other people about their experince
 
-a. What problem does your app solve or what purpose does it serve?
-    Fun game that mimicks those "What countires flag is this" style games but with types of birds.
-    Serves the purpose of being fun and can be educational
-    
-b. Who is the intended user?
-    Someone who is bored, interested in birds/animals, and likes simple games.
+    b.Who is the intended user?
+        -People who wanty to read/talk to other people who enjoy or are interested in
+        TTRPGs or related hobbies and people who want to share stories,experience, or advice 
+        about their own games
 
- What actions will users be able to perform (e.g., sign up, add items, search,
+    c.What actions will users be able to perform (e.g., sign up, add items, search,
 comment, etc.)?
-    Be able to sign up/login, and play the game(press buttons or type answer). Maybe in account theres a way to save scores.
+        -Sign up/create an account, make text posts + add images, search users/post topics?, comment on others blog posts
+        ( (This will be my last time changing it ! :) )
