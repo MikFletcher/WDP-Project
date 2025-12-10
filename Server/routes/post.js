@@ -11,4 +11,6 @@ router.get('/getPosts', (req, res) => {
     }
 })
 
+
+
 module.exports = router

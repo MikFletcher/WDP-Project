@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 
-const userRoutes = require("./server/routes/user")
+const userRoutes = require("./Server/routes/user")
 //const postRoutes = require("./server/routes/post")
 
 app.use(function(req, res, next) {
