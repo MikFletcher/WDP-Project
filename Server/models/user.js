@@ -7,8 +7,6 @@ async function createUsertable(){
             Username VARCHAR(25) NOT NULL UNIQUE,
             Password VARCHAR(25) NOT NULL,
             Email VARCHAR(255) NOT NULL UNIQUE,
-            FirstName VARCHAR(255) NOT NULL
-            LastName VARCHAR(255) NOT NULL
             CONSTRAINT userPK PRIMARY KEY(userID)
         );
     `
@@ -43,7 +41,6 @@ async function register(user){
         INSERT INTO user(Username, Password, Email)
         VALUES("${user.username}", "${user.password}", "${user.email}");
     `
-    //firstname lastname?? idk
     await con.query(sql)
     return await userExists(user) 
 }
@@ -77,12 +74,19 @@ async function editUser(user) {
     const sql = `UPDATE User SET
     username = "${user.username}"
     WHERE UserID = ${user.UserID}
-    ;`//something is off here
+    `; //something is off here I think?
 
     await con.query(sql);
-    const newUser = await get //Need to make getUser function
+    const newUser = await getUser(user);
     return newUser
 }
 
+//DELETE(delete)
+async function deleteUser(UserID) {
+    const sql = `DELETE FROM users
+    WHERE UserID = ${UserID}
+    `;
+}
 
-module.exports = {getAllUsers, register, login}
+
+module.exports = {getAllUsers, register, login, getUser, editUser, deleteUser}
